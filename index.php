@@ -2,7 +2,7 @@
 <?php session_start(); 
     $_SESSION['user_name'] = "";
     $_SESSION['password'] = "";
-    $s=password_hash("lakshitha", PASSWORD_DEFAULT);
+    #$s=password_hash("lakshitha", PASSWORD_DEFAULT);
     ?>
 <?php
     if(isset($_POST['submit'])){
